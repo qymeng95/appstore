@@ -1,0 +1,23 @@
+name: SillyTavern
+tags:
+    - AI助手
+title: 开源的AI聊天前端界面
+description: 开源的AI聊天前端界面，支持多种AI模型
+additionalProperties:
+    key: sillytavern
+    name: SillyTavern
+    tags:
+        - AI Assistant
+    shortDescZh: 开源的AI聊天前端界面
+    shortDescEn: Open-source chat interface for AI language models
+    description:
+        en: Open-source chat interface supporting various AI language models
+        zh: 开源的AI聊天前端界面，支持多种AI模型接入
+        zh-hant: 開源的AI聊天前端界面，支持多種AI模型接入
+    type: application
+    crossVersionUpdate: true
+    limit: 0
+    recommend: 20
+    website: https://docs.sillytavern.app/
+    github: https://github.com/SillyTavern/SillyTavern
+    document: https://docs.sillytavern.app/

@@ -1,0 +1,23 @@
+services:
+  sillytavern:
+    image: ghcr.io/sillytavern/sillytavern:latest
+    container_name: ${CONTAINER_NAME}
+    restart: always
+    networks:
+      - 1panel-network
+    ports:
+      - ${PANEL_APP_PORT_HTTP}:8000
+    volumes:
+      - ./data/config:/home/node/app/config
+      - ./data/data:/home/node/app/data
+      - ./data/plugins:/home/node/app/plugins
+      - ./data/extensions:/home/node/app/public/scripts/extensions/third-party
+    environment:
+      - NODE_ENV=production
+      - FORCE_COLOR=1
+    labels:
+      createdBy: "Apps"
+
+networks:
+  1panel-network:
+    external: true
