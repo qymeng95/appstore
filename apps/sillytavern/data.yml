@@ -7,7 +7,8 @@ additionalProperties:
     key: sillytavern
     name: SillyTavern
     tags:
-        - AI Assistant
+        - WebSite
+        - Local
     shortDescZh: 开源的AI聊天前端界面
     shortDescEn: Open-source chat interface for AI language models
     description:
